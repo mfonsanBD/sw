@@ -1,0 +1,6 @@
+Notificação é o ato de mostrar a mensagem.
+Push é uma força externa do servidor do navegador(google no caso do chrome) que manda um comando para o ServiceWorker.
+
+SITE envia a mensagem pro -> SERVIDOR DO NAVEGADOR, que vai mandar pro -> NAVEGADOR DO CLIENTE, o navegador envia o -> PUSH para o ServiceWorker, que exibe a NOTIFICAÇÃO para o usuário.
+
+NAVEGADOR manda um PUSH para o ServiceWorker e exibe a NOTIFICAÇÃO
